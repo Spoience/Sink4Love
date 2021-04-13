@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="SoberMoonX">
+
+
+    <meta name="subtitle" content="❤Sink for Love">
+
+
+    <meta name="description" content="Stay calm, rational and thinking, hang on to your dreams!">
+
+
+
+<title>Hello World | Sink4Love</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Sink4Love" type="application/atom+xml">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Sink4Love</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                    <a class="menu-item" href="/atom.xml">RSS</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Sink4Love</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                    <a class="menu-item" href="/atom.xml">RSS</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Hello World</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">February 9, 2021&nbsp;&nbsp;22:20:19</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/%E7%AE%80%E8%AE%B0/">简记</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <blockquote>
+<p>As the first article, it is an introduction to the birth of the site:🎉Hello World!</p>
+</blockquote>
+<h2 id="Controversy"><a href="#Controversy" class="headerlink" title="Controversy"></a>Controversy</h2><p>Controversy over theme templates on Hexo and various static blog frameworks:Does the extremely beautiful design have its appearance?Is the ultimate concise design simple?Is the more functions the better?”Everyone is his own builder of dream.”So it is difficult to give an absolute answer.</p>
+<h2 id="Legibility"><a href="#Legibility" class="headerlink" title="Legibility"></a>Legibility</h2><p>The choice and balance of the font,typography,style,and elements that interfere with reading is also a problem.A slight exaggeration of any element will lead to a degradation of the reading experience.You may compare it on some large blog sites and personal blog sites,it can be felt in the middle.</p>
+<h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><p>Many spam websites that gain profits through unauthorized crawling,collecting,and copying the content of articles on other sites survive on the Internet,and some of them have reached the point of “bad money driving out good”.At this site,I have high expectations for it,and I hope I can maintain my calm,rationality and thinking in this era of information bombardment of big data.</p>
+<p>I long for the truth of the world,but there is endless Internet censorship in mainland China,so that I have given up speaking and spending on various domestic IM platforms,hoping to use my heart to find truth^1,truth^2 and truth^3 as much as possible.</p>
+<p><strong>Annotation：</strong></p>
+<ul>
+<li>truth^1: 真实</li>
+<li>truth^2: 真理</li>
+<li>truth^1: 真相</li>
+</ul>
+<h2 id="This-Site"><a href="#This-Site" class="headerlink" title="This Site"></a>This Site</h2><ul>
+<li>This site use English writing as much as possible (with the help of translation tools)</li>
+<li>This site does not use pictures as much as possible (except in special circumstances as much as possible)</li>
+<li>This site is maintained as long as possible (as long as it is not starved to death)</li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>SoberMoonX</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://sink.love/posts/hello-world.html">https://sink.love/posts/hello-world.html</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>©2021 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>LOVE<strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/Original/"># Original</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();" rel="external nofollow noreferrer">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/posts/20210210.html">Brief Notes for February 10, 2021</a>
+            
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© SoberMoonX | Powered by <a href="https://hexo.io" rel="external nofollow noreferrer" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" rel="external nofollow noreferrer" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>

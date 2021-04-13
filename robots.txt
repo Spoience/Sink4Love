@@ -1,0 +1,45 @@
+#spoience.com robots.txt
+User-agent: 360Spider
+Disallow: /
+User-agent: sogou spider
+Disallow: /
+User-agent: Googlebot
+Disallow: 
+User-agent: Bingbot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: Teoma
+Disallow: 
+User-agent: ia_archiver
+Disallow: 
+User-agent: twiceler
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: Scrubby
+Disallow: 
+User-agent: Robozilla
+Disallow: 
+User-agent: Gigabot
+Disallow: 
+User-agent: googlebot-image
+Disallow: /
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: yahoo-mmcrawler
+Disallow: 
+User-agent: yahoo-blogs/v3.9
+Disallow: 
+User-agent: psbot
+Disallow: /
+
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Disallow: /CNAME
+
+Sitemap: https://sink.love/sitemap.xml
+Sitemap: https://sink.love/atom.xml

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://sink.love/vercel.json</loc>
+    
+    <lastmod>2021-04-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/let-me-love-secretly.html</loc>
+    
+    <lastmod>2021-02-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/love.html</loc>
+    
+    <lastmod>2021-02-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/behavior.html</loc>
+    
+    <lastmod>2021-02-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/love-to-escape.html</loc>
+    
+    <lastmod>2021-02-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/20210210.html</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/posts/hello-world.html</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/about/index.html</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/categories/index.html</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sink.love/tags/index.html</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://sink.love/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://sink.love/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sink.love/tags/Original/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sink.love/tags/%E5%BE%AE%E7%AF%87/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sink.love/tags/%E7%88%B1/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://sink.love/categories/%E7%AE%80%E8%AE%B0/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sink.love/categories/%E6%8B%BE%E8%B4%9D%E9%9B%86/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
